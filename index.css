@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 1rem;
+}
+
+.converter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(105, 67, 255, 1);
+}
+
+.input-field{
+    width: 6rem;
+    height: 4rem;
+    border: whitesmoke 1px solid;
+    border-radius: 5px;
+    background-color: rgba(105, 67, 255, 1);
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    margin: 1rem
+}
+
+.convert-btn{
+    width: 6rem;
+    height: 2.5rem;
+    color: black;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin: 0.5rem 0rem 2rem 0rem;
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(243, 244, 246, 1);
+    padding: 0.5rem;
+}
+
+.values div{
+    border-radius: 0.3rem;
+    width: 90%;
+    margin: 0.5rem;
+    background-color: white;
+    color: rgba(75, 85, 99, 1);
+    padding: 0.2rem;
+}
+
+p{
+    font-size: small;
+}
+
+h4{
+    line-height: 0.5;    
+}
